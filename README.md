@@ -1,0 +1,1 @@
+This is the developer documentation for [Koti Cloud](https://koti.cloud) available at https://koti.cloud/developer-documentation
