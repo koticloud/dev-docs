@@ -1,12 +1,20 @@
 {
     "home": {
-        "name": "Home",
-        "file": "home.md",
-        "children": []
+        "title": "Home",
+        "file": "index.md"
     },
     "getting-started": {
-        "name": "Getting Started",
-        "file": "getting-started.md",
-        "children": []
+        "title": "Getting Started",
+        "file": "getting-started.md"
+    },
+    "sdk": {
+        "title": "SDK",
+        "file": "sdk/index.md",
+        "children": {
+            "app": {
+                "title": "App Module",
+                "file": "sdk/app-module.md"
+            }
+        }
     }
 }

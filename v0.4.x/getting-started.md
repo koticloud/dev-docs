@@ -103,7 +103,7 @@ sdk.init({
     // Path to your service worker, relative to the root directory of your
     // project
     serviceWorker: 'sw.js',
-    cacheable: {
+    cacheables: {
         untilUpdate: [
             // NOTE: Edit as needed. This list should be identical to the list
             // of cacheable files/paths you specify in your service worker. This
