@@ -11,9 +11,13 @@
         "title": "SDK",
         "file": "sdk/index.md",
         "children": {
-            "app": {
+            "app-module": {
                 "title": "App Module",
                 "file": "sdk/app-module.md"
+            },
+            "navigator": {
+                "title": "Navigator",
+                "file": "sdk/navigator.md"
             }
         }
     }
