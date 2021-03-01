@@ -18,7 +18,37 @@
             "navigator": {
                 "title": "Navigator",
                 "file": "sdk/navigator.md"
+            },
+            "db": {
+                "title": "DB",
+                "file": "sdk/db.md"
+            },
+            "ui": {
+                "title": "UI",
+                "file": "sdk/ui.md"
+            },
+            "filesystem": {
+                "title": "FileSystem",
+                "file": "sdk/filesystem.md"
+            },
+            "audiofile": {
+                "title": "AudioFile",
+                "file": "sdk/audiofile.md"
+            },
+            "svelte-components": {
+                "title": "Svelte Components",
+                "file": "sdk/svelte-components/index.md",
+                "children": {
+                    "sidebar": {
+                        "title": "Sidebar",
+                        "file": "sdk/svelte-components/sidebar.md"
+                    }
+                }
             }
         }
+    },
+    "app-publishing": {
+        "title": "Publishing an App",
+        "file": "app-publishing.md"
     }
 }
