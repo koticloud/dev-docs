@@ -19,9 +19,13 @@
                 "title": "Navigator",
                 "file": "sdk/navigator.md"
             },
-            "db": {
-                "title": "DB",
-                "file": "sdk/db.md"
+            "database": {
+                "title": "Database",
+                "file": "sdk/database.md"
+            },
+            "preferences": {
+                "title": "App Preferences",
+                "file": "sdk/preferences.md"
             },
             "ui": {
                 "title": "UI",
