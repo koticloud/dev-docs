@@ -186,18 +186,18 @@ data = await sdk.db.collection('transactions')
 
 The returned data will have a tree structure. The results for the example query above would look like this:
 
-```json
+```javascript
 {
-    "2021-03-01": {
-        "saving-account": [
+    '2021-03-01': {
+        'saving-account': [
             ... (array of docs)
         ],
-        "credit-card": [
+        'credit-card': [
             ... (array of docs)
         ]
     },
-    "2021-03-02": {
-        "saving-account": [
+    '2021-03-02': {
+        'saving-account': [
             ... (array of docs)
         ]
         // No credit-card transactions on this date
