@@ -8,6 +8,7 @@
     <li><a href="#deleting-docs">Deleting Documents</a></li>
     <li><a href="#querying-db">Querying the DB</a></li>
     <li><a href="#syncing-db">Syncing the DB</a></li>
+    <li><a href="#misc-methods">Misc Methods</a></li>
 </ul>
 
 ## Introduction <a name="introduction"></a>
@@ -253,3 +254,13 @@ sdk.db.on('synced', () => {
 ```
 
 The only time the DB is synced automatically is on the app start. In this case expect the `syncing` and `synced` events to be fired twice.
+
+## Misc Methods <a name="misc-methods"></a>
+
+### `getCollections()`
+
+Returns the list of all the existing in the DB collections.
+
+```javascript
+sdk.db.getCollections();
+```
