@@ -257,6 +257,17 @@ The only time the DB is synced automatically is on the app start. In this case e
 
 ## Misc Methods <a name="misc-methods"></a>
 
+### `move(doc, collection)`
+
+Move a document to a different collection.
+
+```javascript
+const doc = await sdk.db.collection('categories')
+    .getById('4c3c4b5f57859a26ee5c9ea894a2a77011b5852e2169047e276b87c9f1cea1e6');
+
+sdk.db.collection('categories').move(doc, 'tags');
+```
+
 ### `getCollections()`
 
 Returns the list of all the existing in the DB collections.
